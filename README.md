@@ -2,7 +2,7 @@
 
 Sitio web oficial y *landing page* informativa para la **Fundación Tías del Desayuno**, una organización 100% voluntaria dedicada al acompañamiento, apoyo y contención de niños y niñas con cáncer y sus familias en el Hospital Sótero del Río (Puente Alto, Chile).
 
-🌐 **Sitio Web en vivo:** [https://Tiasdeldesayuno.github.io/tias-del-desayuno/](https://Tiasdeldesayuno.github.io/tias-del-desayuno/)
+🌐 **Sitio Web en vivo:** [https://tiasdeldesayuno.github.io/Tiasdeldesayuno/](https://tiasdeldesayuno.github.io/Tiasdeldesayuno/)
 
 ---
 
@@ -29,7 +29,7 @@ Sitio web oficial y *landing page* informativa para la **Fundación Tías del De
 1. **Inicio / Banner Destacado:** Presentación del propósito y llamados a la acción (CTA) para donar y conocer la labor.
 2. **Sobre Nosotras:** Historia de la fundación desde sus inicios en el año 2007.
 3. **Propósito, Misión y Visión:** Declaración de valores y metas de acompañamiento hospitalario.
-4. **Servicios:** Desayunos solidarios, acompañamiento en etapa terminal, visitas domiciliarias, terapias complementarias, masoterapia y apoyo en hospitalizaciones prolongadas.
+4. **Servicios:** Desayunos solidarios, acompañamiento en etapa terminal, visitas domiciliarias, terapias complementarias (Reiki y regeneración celular) y espacios de bienestar para madres y acompañantes.
 5. **Actividades y Celebraciones:** Calendario de eventos anuales (Día del Niño, Navidad, etc.).
 6. **Proyectos y Sueños:** Espacio dedicado a las metas logradas e iniciativas para humanizar los espacios hospitalarios.
 7. **Voluntariado:** Reconocimiento al equipo de voluntarios, incluyendo ex-pacientes oncológicos que regresan a apoyar.
@@ -50,10 +50,34 @@ Sitio web oficial y *landing page* informativa para la **Fundación Tías del De
 ## 📁 Estructura del Proyecto
 
 ```text
-tias-del-desayuno/
-├── index.html          # Estructura principal de la landing page
-├── css/                # Hojas de estilo del proyecto
-├── js/                 # Scripts e interactividad JavaScript
-├── img/                # Imágenes de voluntarias, proyectos y logos
+Tiasdeldesayuno/
+├── index.html          # Estructura principal de la página
+├── styles.css          # Diseño y colores
+├── script.js           # Textos de actividades, proyectos y sueños + interactividad
+├── img/                # Fotos del sitio
 ├── favicon.svg         # Ícono del sitio web
+├── sitemap.xml         # Mapa del sitio para Google
+├── robots.txt          # Indicaciones para buscadores
 └── README.md           # Documentación del proyecto
+```
+
+> **Editar contenido:** las fotos se reemplazan en `img/` con el mismo nombre; los textos de actividades, proyectos y sueños están al inicio de `script.js`; los textos fijos y los datos de donación, en `index.html`.
+
+---
+
+## 💻 Ejecución Local
+No requiere instalación ni compilación. Descarga el repositorio y abre `index.html` en el navegador, o en Visual Studio Code usa la extensión **Live Server** (clic derecho en `index.html` → *Open with Live Server*).
+
+---
+
+## 🚀 Despliegue en GitHub Pages
+1. En el repositorio ve a **Settings → Pages**.
+2. En *Source* elige **Deploy from a branch**, rama `main` y carpeta `/ (root)`, y pulsa **Save**.
+3. Tras 1 o 2 minutos el sitio queda disponible en `https://tiasdeldesayuno.github.io/Tiasdeldesayuno/`.
+
+Para actualizar el sitio basta con subir los archivos modificados al repositorio (**Add file → Upload files**).
+
+---
+
+## 💜 Sobre la Fundación y Donaciones
+Los datos para donar o apadrinar a un niño se encuentran en la sección **Donar ahora** del sitio web. Para consultas: fundaciontiasdeldesayuno@gmail.com

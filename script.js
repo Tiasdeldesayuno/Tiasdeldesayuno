@@ -13,6 +13,11 @@ const RETIRO_TXT = [
   'Queríamos que ese libro fuera más que un recuerdo: que pudieran volver a él cuando lo necesitaran, encontrar en sus propias palabras un pedacito de sus hijos y recordar que, por más que el dolor sea inmenso, no tienen que atravesarlo solas.'
 ];
 
+const TALLER_TXT = [
+  'Madres que atraviesan un proceso de duelo participan en un foro donde comparten sus experiencias, vivencias y procesos de sanación. Se generan instancias de apertura emocional en las que pueden expresar sus sentimientos y compartir aquello que resulta más sensible, encontrando contención y comprensión en otras madres que han vivido situaciones similares.',
+  'Lo más significativo de estos encuentros es el vínculo que se construye entre ellas. Al escuchar a otras madres que han vivido un dolor similar, encuentran comprensión y compañía en experiencias que muchas veces sienten imposibles de explicar. Cada historia compartida puede convertirse en un abrazo para quien escucha, permitiéndoles reconocer que no están solas en su proceso.'
+];
+
 const ACTIVITIES = [
   { t:'Pascua de Resurrección', c:'cel', imgs:['pascua'], d:'Sorpresas y compañía en el hospital para celebrar la Pascua.' },
   { t:'Día de las Madres', c:'cel', imgs:['madres'], d:'Un homenaje a las mamás que acompañan a sus hijos día a día.' },
@@ -22,6 +27,7 @@ const ACTIVITIES = [
   { t:'Paseo a la Playa', c:'rec', imgs:['playa'], d:'Un día de mar y aire libre para desconectar de la rutina hospitalaria.' },
   { t:'Halloween', c:'rec', imgs:['halloween'], d:'Disfraces y dulces para pasar un Halloween especial.' },
   { t:'Retiro Mamás en Duelo', c:'apo', imgs:['retiro1','retiro2'], d:'Espacio de contención para madres en proceso de duelo.', more:RETIRO_TXT },
+  { t:'Talleres de duelo y apoyo emocional', c:'apo', imgs:['taller1','taller2'], d:'Un foro de encuentro y contención entre madres que atraviesan un proceso de duelo.', more:TALLER_TXT },
 ];
 
 const PROJECTS = [
