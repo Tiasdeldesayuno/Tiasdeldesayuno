@@ -60,24 +60,5 @@ Tiasdeldesayuno/
 ├── robots.txt          # Indicaciones para buscadores
 └── README.md           # Documentación del proyecto
 ```
-
-> **Editar contenido:** las fotos se reemplazan en `img/` con el mismo nombre; los textos de actividades, proyectos y sueños están al inicio de `script.js`; los textos fijos y los datos de donación, en `index.html`.
-
----
-
-## 💻 Ejecución Local
-No requiere instalación ni compilación. Descarga el repositorio y abre `index.html` en el navegador, o en Visual Studio Code usa la extensión **Live Server** (clic derecho en `index.html` → *Open with Live Server*).
-
----
-
-## 🚀 Despliegue en GitHub Pages
-1. En el repositorio ve a **Settings → Pages**.
-2. En *Source* elige **Deploy from a branch**, rama `main` y carpeta `/ (root)`, y pulsa **Save**.
-3. Tras 1 o 2 minutos el sitio queda disponible en `https://tiasdeldesayuno.github.io/Tiasdeldesayuno/`.
-
-Para actualizar el sitio basta con subir los archivos modificados al repositorio (**Add file → Upload files**).
-
----
-
 ## 💜 Sobre la Fundación y Donaciones
 Los datos para donar o apadrinar a un niño se encuentran en la sección **Donar ahora** del sitio web. Para consultas: fundaciontiasdeldesayuno@gmail.com
