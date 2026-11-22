@@ -15,16 +15,6 @@ Sitio web oficial y *landing page* informativa para la **Fundación Tías del De
 - [Despliegue en GitHub Pages](#-despliegue-en-github-pages)
 - [Sobre la Fundación y Donaciones](#-sobre-la-fundación-y-donaciones)
 
----
-
-## ✨ Características del Sitio
-* **Diseño Responsivo:** Adaptado para teléfonos móviles, tablets y computadores de escritorio.
-* **Carga Rápida y Ligera:** Desarrollado sin frameworks pesados ni librerías innecesarias.
-* **Accesible y Semántico:** Estructurado siguiendo buenas prácticas de accesibilidad web (etiquetas semánticas ARIA).
-* **Función Copiar Datos:** Facilita la copia de los datos bancarios para transferencias directas.
-
----
-
 ## 🗂️ Secciones de la Página
 1. **Inicio / Banner Destacado:** Presentación del propósito y llamados a la acción (CTA) para donar y conocer la labor.
 2. **Sobre Nosotras:** Historia de la fundación desde sus inicios en el año 2007.
